@@ -2,19 +2,20 @@ body{
     background-color: #1f2937;
     display: flex;
     flex-direction: column;
+    margin: 0%;
 }
 
 a{
     text-decoration: none; 
-    color: #f9faf8
 }
 
 ul{
     list-style-type: none;
     margin: 0%;
     padding: 0%;
-    gap: 25px;
 }
+
+/* HEADER STYLING STARTS HERE*/
 
 .header-container{
     display: flex;
@@ -25,12 +26,224 @@ ul{
 
 .header-logo{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 24px;
-    color: #f9faf8;
+    font-size: 32px;
+    font-weight: 800;
+    color: #ffffff
 }
 
 .header-list{
     display: flex;
+    align-items: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 24px;
+    font-size: 18px;
+    gap: 25px;
+}
+
+.header-links{
+    color: #e5e7eb;
+}
+
+.headerlist-container{
+    display: flex;
+}
+
+/* CONTENT 1 STYLING STARTS HERE*/
+
+.content1-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+}
+
+.hero1-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 600px;
+    margin-left: 60px;
+}
+
+.hero1,
+.hero2,
+.signup{
+    margin: 0%;
+    padding: 0%
+}
+
+.hero1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    color: #f9faf8 ;
+    font-weight: 900;
+    padding: 20px 0;
+}
+
+.hero2{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #e5e7eb;
+    padding-bottom: 20px;
+}
+
+.signup{
+    width: 110px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.teambre-logo{
+    height: 300px;
+    width: 350px;
+    border-radius: 20%;
+    display: flex;
+    flex-shrink: 0;
+    margin-right: 50px;
+}
+
+/* CONTENT 2 STYLING STARTS HERE*/
+
+.previews {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 5px solid #3882f6;
+}
+
+.content2-container{
+    padding: 100px;
+    background-color: white;
+}
+
+.content2-title{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+}
+
+.preview-images{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding-bottom: 60px;
+    padding-top: 20px;
+}
+
+.images{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 300px;
+    max-height: 350px;
+}
+
+.content-previews{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #1f2937;
+    padding-top: 20px;
+}
+
+/* QUOTE SECTION STYLING STARTS HERE*/
+
+.content3-container{
+    padding: 100px;
+    background-color: #e5e7eb
+}
+
+.container-quote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.quote{
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.author{
+    align-self: flex-end;
+    padding-right: 34%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* CONTACT SECTION STYLING STARTS HERE*/
+
+.content4-container{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    background-color: white;
+}
+
+.contact-container{
+    display: flex;
+    background-color: #3882f6;
+    margin: 80px;
+    border-radius: 7px;
+    padding: 30px 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-description{
+    display: flex;
+    flex-direction: column;
+    padding-right: 100px;
+    color: white;
+}
+
+.ask{
+    margin: 0%;
+    padding: 0%;
+    margin-bottom: 5px;
+    font-size: 20px
+}
+
+.ask-description{
+    margin: 0%;
+    padding: 0%;
+}
+
+.contact-button{
+    display: flex;
+    align-items: center;
+}
+
+.actualbutton{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 90px;
+    height: 30px;
+    color: #e5e7eb;
+    background-color: #3882f6;
+}
+
+/* FOOTER SECTION STYLING STARTS HERE*/
+
+.footer{
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.footer-content{
+    color: #e5e7eb;
+    padding: 10px;
 }
